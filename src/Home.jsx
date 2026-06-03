@@ -1,14 +1,161 @@
-import React from 'react'
+// import React from 'react'
 
 
-const Home = () => {
-    console.log("helloooo");
+// const Home = () => {
+//     console.log("helloooo");
     
-  return (
-    <div>
-      homeeeeeee!!!
-    </div>
-  )
-}
+//   return (
+//     <div>
+//       homeeeeeee!!!
+//     </div>
+//   )
+// }
 
-export default Home
+// export default Home
+
+
+// import React, { useState } from "react";
+// import "./Todo.css";
+
+// const Todo = () => {
+//   const [task, setTask] = useState("");
+//   const [todos, setTodos] = useState([]);
+
+
+
+
+
+
+
+
+//   return (
+//     <div className="container">
+//       <h1>Todo List</h1>
+
+//       <div className="input-box">
+//         <input
+//           type="text"
+//           name="task"
+//           value={task}
+//           placeholder="Enter a task"
+//           onChange={(e)=>setTask(e.target.value)}
+  
+//         />
+
+// <button onClick={()=>setTodos([...todos,task])}>add</button>
+//       </div>
+    
+
+//       <div className="todo-list">
+//         {todos.map((todo, index) => (
+//           <div className="todo-item" key={index}>
+//             <span>{todo}</span>
+
+//             <div className="actions">
+//               <button >
+//                 Edit
+//               </button>
+
+//               <button >
+//                 Delete
+//               </button>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Todo;
+
+
+
+
+
+
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     font-family: Arial, sans-serif;
+//   }
+  
+//   body {
+//     background: #f4f4f4;
+//   }
+  
+//   .container {
+//     width: 500px;
+//     margin: 50px auto;
+//     background: white;
+//     padding: 25px;
+//     border-radius: 12px;
+//     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   .container h1 {
+//     text-align: center;
+//     margin-bottom: 20px;
+//   }
+  
+//   .input-box {
+//     display: flex;
+//     gap: 10px;
+//     margin-bottom: 20px;
+//   }
+  
+//   .input-box input {
+//     flex: 1;
+//     padding: 12px;
+//     border: 1px solid #ccc;
+//     border-radius: 8px;
+//     outline: none;
+//   }
+  
+//   .input-box button {
+//     padding: 12px 20px;
+//     border: none;
+//     border-radius: 8px;
+//     background: #0d6efd;
+//     color: white;
+//     cursor: pointer;
+//   }
+  
+//   .todo-list {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+//   }
+  
+//   .todo-item {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     background: #f8f9fa;
+//     padding: 15px;
+//     border-radius: 8px;
+//     border-left: 5px solid #0d6efd;
+//   }
+  
+//   .actions {
+//     display: flex;
+//     gap: 8px;
+//   }
+  
+//   .actions button {
+//     border: none;
+//     padding: 8px 12px;
+//     border-radius: 6px;
+//     color: white;
+//     cursor: pointer;
+//   }
+  
+//   .actions button:first-child {
+//     background: orange;
+//   }
+  
+//   .actions button:last-child {
+//     background: crimson;
+//   }

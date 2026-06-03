@@ -1,6 +1,7 @@
 // import UserCard from "./components/UserCard";
 import { useEffect, useState } from "react";
 import "./App.css";
+ 
 // import "./task"
 // function App() {
 //   return (
@@ -122,25 +123,38 @@ import "./App.css";
 // export default App
 
 
-import React from 'react'
-import NavBar from "./Navbar";
-import { Route,Routes } from "react-router-dom";
-import Home from "./Home"
-import About from "./About"
-import Task from "./Task"
-import ContactUs from "./ContactUs";
+// import React from 'react'
+// import NavBar from "./Navbar";
+// import { Route,Routes } from "react-router-dom";
+// import Home from "./Home"
+// import About from "./About"
+// import Task from "./Task"
+// import ContactUs from "./ContactUs";
 
+
+// const App = () => {
+//   return (
+//     <div>
+//       <NavBar/>
+//       <Routes>
+//         <Route path="/" element={<Home/>}/>
+//         <Route path="/about" element={<About/>}/>
+//         <Route path="/task" element={<Task/>}/>
+//        <Route path="/contactUs" element={<ContactUs/>}/>
+//       </Routes>
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import Todo from './Todo'
 
 const App = () => {
   return (
     <div>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/task" element={<Task/>}/>
-       <Route path="/contactUs" element={<ContactUs/>}/>
-      </Routes>
+      <Todo/>
     </div>
   )
 }

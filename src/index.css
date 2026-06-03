@@ -8,7 +8,7 @@
 
 body{
   background-color: rgb(203, 192, 213);
-  color: white;
+  color: rgb(1, 1, 1);
   min-height: 100vh;
   padding: 30px;
 }
