@@ -1,6 +1,6 @@
 // import UserCard from "./components/UserCard";
 import { useEffect, useState } from "react";
-import "./App.css";
+
  
 // import "./task"
 // function App() {
@@ -148,13 +148,27 @@ import "./App.css";
 
 // export default App
 
+// import React from 'react'
+// import Todo from './Todo'
+// import './App.css'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Todo/>
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-import Todo from './Todo'
+import Count from './Count'
 
 const App = () => {
   return (
     <div>
-      <Todo/>
+      <Count/>
     </div>
   )
 }
